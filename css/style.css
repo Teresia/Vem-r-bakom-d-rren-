@@ -1,0 +1,151 @@
+
+body{
+	text-align: center;
+	background-color: #222;
+	padding-bottom: 40px;
+
+}
+
+h1{
+	font-family: 'Fredoka One', cursive;
+	font-size: 48px;
+	color: #FC6399;
+	margin-top: 40px;
+}
+
+h2{
+	font-family: 'Fredoka One', cursive;
+	font-size: 48px;
+	text-align: center;
+	color: #FC6399;
+	-webkit-text-stroke: 2px #fff;
+}
+
+.soundtext{
+	color: #F5D76E;
+}
+
+audio{
+	vertical-align: middle;
+}
+
+
+.ingress{
+	margin-bottom: 24px;
+	color: #F5D76E;
+	font-family: 'Fredoka One', cursive;
+	font-size: 24px;
+}
+
+.animalsContainer{
+	width: 80%;
+	max-width: 800px;
+}
+
+.animalCardWrapper{
+	padding:2px; 
+}
+
+.animalCard{
+	background-color: #333232;
+	width: 100%;
+	height: 220px;
+	background-size: cover;
+	background-position: center;
+	border-radius: 4px;
+}
+
+.bandCard{
+	height: 420px;
+}
+
+.animalCard:hover{
+	cursor: pointer;
+}
+
+
+.bigCardContainer{
+	width: 95vw;
+    height: 95vh;
+    max-width: 800px;
+}
+
+
+.bigCard{
+	background-size: cover;
+	background-position: center;
+	background-image: url("img/bas.jpg");
+	height: 95vh;
+	border-radius: 4px;
+}
+
+.bigBandCardContainer{
+	width: 95vw;
+    height: 95vh;
+}
+
+
+.bigBandCard{
+	background-size: cover;
+	background-position: center;
+	height: 90vh;
+	border-radius: 4px;
+	width: 95vw;
+}
+
+.closeIcon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 32px;
+    opacity: 0.7;
+    color: #FC6399;
+	-webkit-text-stroke: 2px #fff;
+
+}
+
+.closeIcon:hover {
+	cursor: pointer;
+    opacity: 1;
+
+}
+
+.bigBandCard > .closeIcon{
+	color: white;
+}
+
+
+
+
+.modal-footer{
+	text-align: center !important;
+}
+
+.closeBtn{
+	width: 80px;
+
+}
+
+@media only screen and (max-width: 580px) {
+
+.animalsContainer{
+	width: 98%;
+}
+
+.animalCard{
+	height: 160px;
+}
+
+.bandCard{
+	height: 200px;
+}
+
+.bigBandCard{
+	background-size: cover;
+	background-position: center;
+	height: 50vh;
+	border-radius: 4px;
+	width: 98vw;
+}
+
+}
